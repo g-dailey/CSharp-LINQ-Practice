@@ -131,10 +131,50 @@ namespace CoreApp
             //foreach (var item in result)
             //{
             //    Console.WriteLine($"{item.FullName,-20} {item.AnnualSalary,10}/t{item.DepartmentName}");
-                
+
             //}
 
             //Method Syntax with GROUPJOIN
+            //var result = departmentlist.GroupJoin(employeelist,
+            //    dept => dept.Id,
+            //    emp => emp.DepartmentId,
+            //    (dept, employeesGroup) => new
+            //    {
+            //        Employees = employeesGroup,
+            //        DepartmentName = dept.LongName
+            //    });
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Department Name: {item.DepartmentName}");
+            //    foreach (var emp in item.Employees)
+            //    {
+            //        Console.WriteLine($"\t{emp.FirstName} {emp.LastName}");
+            //    }
+
+            //}
+
+            //QUERY Syntax with GROUPJOIN
+            var result = from dept in departmentlist
+                         join emp in employeelist
+                         on dept.Id equals emp.DepartmentId
+                         into employeeGroup
+                         select new
+                         {
+                             Employees = employeeGroup,
+                             DepartmentName = dept.LongName
+                         };
+
+            foreach (var item in result)
+            {
+                Console.WriteLine($"Department Name: {item.DepartmentName}");
+                foreach (var emp in item.Employees)
+                {
+                    Console.WriteLine($"\t{emp.FirstName} {emp.LastName}");
+                }
+
+            }
+
 
 
             Console.ReadKey();
