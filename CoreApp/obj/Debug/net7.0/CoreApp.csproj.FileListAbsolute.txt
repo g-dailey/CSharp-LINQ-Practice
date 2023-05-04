@@ -1,0 +1,15 @@
+/Users/ge/Projects/CoreApp/CoreApp/bin/Debug/net7.0/CoreApp
+/Users/ge/Projects/CoreApp/CoreApp/bin/Debug/net7.0/CoreApp.deps.json
+/Users/ge/Projects/CoreApp/CoreApp/bin/Debug/net7.0/CoreApp.runtimeconfig.json
+/Users/ge/Projects/CoreApp/CoreApp/bin/Debug/net7.0/CoreApp.dll
+/Users/ge/Projects/CoreApp/CoreApp/bin/Debug/net7.0/CoreApp.pdb
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.csproj.AssemblyReference.cache
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.AssemblyInfoInputs.cache
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.AssemblyInfo.cs
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.csproj.CoreCompileInputs.cache
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.dll
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/refint/CoreApp.dll
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.pdb
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/CoreApp.genruntimeconfig.cache
+/Users/ge/Projects/CoreApp/CoreApp/obj/Debug/net7.0/ref/CoreApp.dll
