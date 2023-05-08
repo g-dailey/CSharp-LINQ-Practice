@@ -154,7 +154,7 @@ namespace CoreApp
 
             //}
 
-            //QUERY Syntax with GROUPJOIN
+            //QUERY Syntax with GROUPJOIN and Order by 
             var result = from dept in departmentlist
                          join emp in employeelist
                          on dept.Id equals emp.DepartmentId
